@@ -13,4 +13,4 @@ Code review generator from commit tags and branch in the Bitbucket.
 3. Execute `pip install gitpython` to install GitPython;
 
 # Using
-1. Execute `python code_review_generator.py <tag> <branch_base>` in cmd prompt;
+1. Execute `python code_review_generator.py <repository_path> <branch> <tag>` in cmd prompt;
