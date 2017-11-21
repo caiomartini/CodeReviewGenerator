@@ -102,7 +102,7 @@ def main():
 
     gitcommand.execute("git checkout {}".format(branch_base))
 
-    link = "https://bitbucket.org/ciandt_it/mitsui/commits/{}?at={}".format(ultimo_commit, branch_review_diff)
+    link = "{BITBUCKET_REPOSITORY_LINK}/commits/{}?at={}".format(ultimo_commit, branch_review_diff)
     webbrowser.open(link)
 
     hours, rem = divmod(time.time() - start_time, 3600)
